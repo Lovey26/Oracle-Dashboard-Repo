@@ -1,0 +1,28 @@
+<div class="navbar">
+  <mat-nav-list>
+      <h2 matSubheader><mat-icon>new_releases</mat-icon>Core Infrastructure</h2>
+      <app-menu-list-item *ngFor="let item of coreInfraItems" [item]="item"></app-menu-list-item>
+      <mat-divider></mat-divider>
+
+      <h2 matSubheader><mat-icon>new_releases</mat-icon>Oracle Databases</h2>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Overview</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Autonomous Data Warehouse</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Autonomous JSON Database</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Autonomous Transaction Processing</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Bare Metal, VM, and Exadata</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Exadata Cloud@Customer</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">External Database</a>
+      <mat-divider></mat-divider>
+
+      <h2 matSubheader><mat-icon>new_releases</mat-icon>Databases</h2>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">MY SQL</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">No SQL Database</a>
+      <mat-divider></mat-divider>
+
+      <h2 matSubheader><mat-icon>new_releases</mat-icon>Database Related Services</h2>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">APEX Application Development</a>
+      <a mat-list-item routerLinkActive="list-item-active" routerLink="/contacts">Data Safe</a>
+
+  </mat-nav-list>
+
+</div>

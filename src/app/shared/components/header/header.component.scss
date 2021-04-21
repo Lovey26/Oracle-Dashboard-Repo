@@ -1,0 +1,16 @@
+ul li {
+  list-style: none;
+}
+input[type=text] {
+  padding: 10px;
+  margin-left: 25px;
+  font-size: 12px;
+  border: 1px solid white;
+  float: left;
+  width: 100%;
+  display: flex;
+}
+.mat-toolbar.mat-primary {
+  background: #272726;
+  color: white;
+}
