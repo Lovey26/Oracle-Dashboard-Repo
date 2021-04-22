@@ -10,6 +10,7 @@ export class DefaultComponent implements OnInit, AfterViewInit {
   @ViewChild('appDrawer', { static: false }) public appDrawer: ElementRef;
 
   sideBarOpen = false;
+  eventVal: any;
 
   constructor(private navService: NavService) {
   }
@@ -21,7 +22,7 @@ export class DefaultComponent implements OnInit, AfterViewInit {
   ngOnInit() { }
 
 
-  sideBarToggler() {
+  sideBarToggler(eventVal: any) {
     this.sideBarOpen = !this.sideBarOpen;
   }
 
